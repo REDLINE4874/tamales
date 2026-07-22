@@ -1,0 +1,20 @@
+{
+  "name": "tamales-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API en Apps Script (Google Sheets como base de datos) para el dashboard de tamales",
+  "scripts": {
+    "login": "clasp login",
+    "create": "clasp create --type sheets --title \"Tamales - Base de datos\" --rootDir ./src",
+    "clone": "clasp clone",
+    "push": "clasp push",
+    "watch": "clasp push --watch",
+    "open": "clasp open",
+    "open:webapp": "clasp open --webapp",
+    "deploy": "clasp deploy",
+    "deployments": "clasp deployments"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2"
+  }
+}
